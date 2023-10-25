@@ -1,0 +1,14 @@
+.btn-2{
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background: linear-gradient(90deg, red, blue);
+}
+  
+.btn-2:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
