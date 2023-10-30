@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { UppercaseParagraph } from './App.js';
+import Button from '../quest-2/Button.jsx'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>Quest - React Básico</h1>
         <div className='input-div'>
           <input className='text' type="text" onChange={(e)=>{setText(e.target.value)}} placeholder='Digite algo 😊'/>
           <input className='text' type="text" onChange={(e)=>{setColorText(e.target.value)}} placeholder='Digite uma cor em inglês ou Hexad.'/>
@@ -18,6 +20,7 @@ function App() {
         </div>
         <button className='btn' onClick={()=>{UppercaseParagraph()}}>Uppercase</button>
       </div>
+      <Button label='A Label desse botão é uma dica - Sempre dê o seu melhor!'/>
     </>
   )
 }
