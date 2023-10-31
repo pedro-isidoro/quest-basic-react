@@ -1,7 +1,12 @@
 import { useState } from 'react'
-import { UppercaseParagraph } from './App.js';
 import Button from '../quest-2/Button.jsx'
 import './App.css'
+
+function UppercaseParagraph(){
+  var paragraph = document.getElementById('paragraph');
+  //Com o método toggle, ele verifica se tem a classe, se tiver remove e se não adiciona 
+  paragraph.classList.toggle('uppercase');
+};
 
 function App() {
   const [text, setText] = useState('Era uma vez, um Pudim apaixonado, estava andando na rua quando foi atropeladooooo. Puts!! Pudim amassaaaaaadooo, Pudim amassaaaaaaado, Pudim amassaaaaaadoooo. Pudim Amassado morreeeeeeeeu!! ');
