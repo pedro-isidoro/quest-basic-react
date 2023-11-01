@@ -4,7 +4,7 @@
 ## Objetivos
 ### Em um arquivo React:
 - Criar um componente que colore e transforma um texto para maiúsculo (uppercase) utilizando JS.
--- Mostrar mensagem com a label do botão
+  - Mostrar mensagem com a label do botão
 
 ## Tecnologias utilizadas
 - HTML
