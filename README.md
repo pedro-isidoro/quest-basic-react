@@ -5,6 +5,12 @@
 ### Em um arquivo React:
 - Criar um componente que colore e transforma um texto para maiúsculo (uppercase) utilizando JS.
 -- Mostrar mensagem com a label do botão
+
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+- React + Vite
   
 ## Obstáculos
 - Conseguir de forma correta, e coesa ultilizar o React;
